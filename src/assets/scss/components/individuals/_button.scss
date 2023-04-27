@@ -1,0 +1,21 @@
+.btn {
+    margin: 30px;
+    width: 90%;
+    background-color: black;
+    color: #ffffff;
+    padding: 4px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn--primary:hover {
+    background-color: rgb(57, 65, 65);
+    color: #ffffff;
+}
+
+@media (max-width: 255px) {
+    .btn {
+        width: 80%;
+    }
+}
